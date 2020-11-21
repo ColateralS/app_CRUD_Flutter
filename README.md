@@ -1,18 +1,19 @@
 # database_flutter
 
-A new Flutter project.
+Proyecto desarrollado en Flutter por Steeven Ortega para Seminario de Sistemas.
 
-## Getting Started
+Video Tutorial en Youtube: https://youtu.be/t-WNVNk2B9I
 
-This project is a starting point for a Flutter application.
+## Instrucciones
 
-A few resources to get you started if this is your first Flutter project:
+El proyecto es una aplicación que funciona como un CRUD de Usuarios.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Dependecias utilizadas en el archivo pubspec.yaml
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+SQFLite: https://pub.dev/packages/sqflite
+Path Provider: https://pub.dev/packages/path_provider
 
-Hola
+Se creo 3 clases:
+db_helper.dart (Clase que ayuda con la conexión de la BD asi como las sentencias SQL de CREATE, INSERT, UPDATE, DELETE)
+main.dart (Clase Principal donde esta desarrollada la aplicación y sus interfaces)
+user.dart (Clase que funciona como modelo para el Usuario donde se crea sus atributos ID y NAME)
